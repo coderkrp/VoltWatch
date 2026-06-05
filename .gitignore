@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+**/__pycache__/
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+env/
+backend/.venv/
+dashboard/.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and local runtime files
+*.log
+*.db
+*.sqlite3
+
+# Local databases
+backend/data_logger.db
+
+# Test and scratch artifacts
+.tmp_pytest*/
+tmp_pytest_backend/
+pytest-cache-files-*/
+dashboard/.tmp_pytest*/
+backend/.tmp_pytest*/
+backend/pytest-cache-files-*/
+backend/tmp*/
+
+# Coverage
+.coverage
+htmlcov/
+coverage.xml
+
+# Env files
+.env
+.env.local
+
+# MyPy
+.mypy_cache/
+
+# ESP8266 Build Artifacts
+build/
+*.bin
+*.elf
+
+# Personal Career Assets
+CAREER_POSITIONING.md
+SENIOR_ENGINEER_REVIEW.md
+
+# Private Documents & Diagrams
+DataLogger Pinout.xlsx
+*.webp
