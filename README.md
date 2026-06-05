@@ -10,7 +10,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   [Architecture](#architecture-overview) •
-  [Quick Start](#quick-start) •
+  [Quick Start](#-quick-start) •
   [Documentation](#technical-documentation) •
   [Contributing](#contributing)
 </div>
