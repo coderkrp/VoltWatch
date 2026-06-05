@@ -69,7 +69,7 @@ graph LR
 
 ### 1. Backend Setup
 ```bash
-git clone https://github.com/yourusername/VoltWatch.git
+git clone https://github.com/coderkrp/VoltWatch.git
 cd VoltWatch/backend
 python -m venv .venv
 source .venv/bin/activate  # or .\.venv\Scripts\Activate.ps1 on Windows
@@ -122,10 +122,6 @@ API_KEY=my-secure-token
   ]
 }
 ```
-
-## 📸 Dashboard Screenshots
-> **Note:** Insert screenshots showing the live power charts here.
-![Dashboard Overview Placeholder](https://via.placeholder.com/800x400?text=Streamlit+Dashboard+-+Live+Metrics)
 
 ## ⚡ Performance Notes
 
