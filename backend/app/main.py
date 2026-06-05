@@ -1,7 +1,8 @@
 from fastapi import FastAPI
-from .db import Base, engine, run_startup_migrations
-from .api import health, readings, query
+
+from .api import health, query, readings
 from .core import logging_config  # noqa: F401
+from .db import Base, engine, run_startup_migrations
 
 Base.metadata.create_all(bind=engine)
 run_startup_migrations()

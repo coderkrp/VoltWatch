@@ -2,15 +2,14 @@ from datetime import datetime
 from pathlib import Path
 
 import pytest
-from fastapi import FastAPI
-from fastapi.testclient import TestClient
-from sqlalchemy import create_engine, inspect
-from sqlalchemy.orm import sessionmaker
-
 from app.api import health, query, readings
 from app.core import settings
 from app.db import Base, get_db
 from app.models import Reading, Session
+from fastapi import FastAPI
+from fastapi.testclient import TestClient
+from sqlalchemy import create_engine, inspect
+from sqlalchemy.orm import sessionmaker
 
 
 def _sensor_payload(sensor_index: int, bus_voltage: float, shunt_voltage: float, supply_voltage: float, current: float):

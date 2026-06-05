@@ -1,11 +1,12 @@
+from datetime import timezone
+from typing import List, Optional
+
 from fastapi import APIRouter, Depends, Query
 from sqlalchemy.orm import Session
-from typing import List, Optional
-from datetime import timezone
 
-from ..db import get_db
 from .. import schemas, services
 from ..core.auth import verify_api_key
+from ..db import get_db
 
 router = APIRouter()
 

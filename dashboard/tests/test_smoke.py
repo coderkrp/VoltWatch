@@ -1,8 +1,8 @@
 import subprocess
 import sys
-from pathlib import Path
 import time
 import unittest
+from pathlib import Path
 
 
 class DashboardSmokeTests(unittest.TestCase):

@@ -5,7 +5,6 @@ import pandas as pd
 import plotly.graph_objs as go
 import streamlit as st
 from api_client import fetch_json, get_api_base_url
-from data_fetch import interval_to_sample_step
 from dashboard_logic import (
     append_incremental_readings,
     chart_data,
@@ -15,6 +14,7 @@ from dashboard_logic import (
     normalize_readings,
     reading_params,
 )
+from data_fetch import interval_to_sample_step
 from export_excel import build_session_workbook, export_filename
 from session_selection import resolve_selected_session
 from summary_format import build_summary_blocks

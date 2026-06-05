@@ -1,10 +1,19 @@
-from datetime import datetime
 
-from sqlalchemy import Column, Integer, String, Float, DateTime, ForeignKey, JSON, UniqueConstraint, Index
+from sqlalchemy import (
+    JSON,
+    Column,
+    DateTime,
+    Float,
+    ForeignKey,
+    Index,
+    Integer,
+    String,
+    UniqueConstraint,
+)
 from sqlalchemy.orm import relationship
 
-from .db import Base
 from .core.time import utc_now_naive
+from .db import Base
 
 
 class Device(Base):

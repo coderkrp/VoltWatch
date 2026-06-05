@@ -1,8 +1,11 @@
-from sqlalchemy.orm import Session
 from datetime import datetime, timezone
+
+from sqlalchemy.orm import Session
+
 from . import models
 from .core import settings
 from .core.time import utc_now_naive
+
 
 def get_or_create_device(db: Session, device_id: str):
     device = db.query(models.Device).filter_by(device_id=device_id).first()

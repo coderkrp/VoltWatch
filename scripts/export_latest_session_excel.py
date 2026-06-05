@@ -7,7 +7,6 @@ from pathlib import Path
 
 from openpyxl import Workbook
 
-
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DB_PATH = REPO_ROOT / "backend" / "data_logger.db"
 DEFAULT_OUTPUT_PATH = REPO_ROOT / "exports" / "all_sessions_export.xlsx"

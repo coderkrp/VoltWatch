@@ -4,7 +4,6 @@ from typing import Any
 
 import pandas as pd
 
-
 CURSOR_COLUMNS = ["boot_id", "seq"]
 READING_ID_COLUMNS = ["boot_id", "seq", "sensor_id"]
 

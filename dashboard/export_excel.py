@@ -6,7 +6,6 @@ from typing import Any
 
 import pandas as pd
 
-
 SUMMARY_SHEET_NAME = "Summary"
 READINGS_SHEET_NAME = "Readings"
 

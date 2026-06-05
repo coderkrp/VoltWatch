@@ -4,11 +4,11 @@ from fastapi import APIRouter, Depends
 from sqlalchemy.dialects.sqlite import insert as sqlite_insert
 from sqlalchemy.orm import Session
 
-from ..db import get_db
-from .. import schemas, models, services
+from .. import models, schemas, services
 from ..core import settings
 from ..core.auth import verify_api_key
 from ..core.time import utc_now
+from ..db import get_db
 
 router = APIRouter()
 logger = logging.getLogger(__name__)

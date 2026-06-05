@@ -94,7 +94,7 @@ class ExportExcelTests(unittest.TestCase):
         self.assertEqual(summary_values["Power Avg"], 378.0)
 
         readings_sheet = workbook[READINGS_SHEET_NAME]
-        header = [cell for cell in next(readings_sheet.iter_rows(min_row=1, max_row=1, values_only=True))]
+        header = list(next(readings_sheet.iter_rows(min_row=1, max_row=1, values_only=True)))
         self.assertEqual(
             header,
             ["timestamp_utc", "bus_voltage", "shunt_voltage", "supply_voltage", "current", "power"],
