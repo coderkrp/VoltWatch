@@ -9,10 +9,10 @@
   [![ESP8266](https://img.shields.io/badge/ESP8266-Arduino-blue.svg)](https://github.com/esp8266/Arduino)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  [Architecture](#architecture-overview) •
+  [Architecture](#%EF%B8%8F-architecture-overview) •
   [Quick Start](#-quick-start) •
-  [Documentation](#technical-documentation) •
-  [Contributing](#contributing)
+  [Documentation](#-technical-documentation) •
+  [Contributing](#-contributing)
 </div>
 
 <br>
